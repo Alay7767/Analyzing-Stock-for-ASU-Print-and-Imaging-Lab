@@ -1,0 +1,767 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20251.25.0313.2002                               -->
+<workbook original-version='18.1' source-build='2025.1.0 (20251.25.0313.2002)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Orders_2024-01-01_2025-01-01 -  (Orders_2024-01-01_2025-01-01 - Orders_2024-01-01_2025-01-01)' inline='true' name='federated.1fkqh8t0m16de215wo4i40dkp34a' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Orders_2024-01-01_2025-01-01 - Orders_2024-01-01_2025-01-01' name='excel-direct.12xtxyy0sicoi318tsuqy1v4xbex'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/alayp/Downloads/Orders_2024-01-01_2025-01-01 - Orders_2024-01-01_2025-01-01.xls' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.12xtxyy0sicoi318tsuqy1v4xbex' name='Orders_2024-01-01_2025-01-01 - ' table='[&apos;Orders_2024-01-01_2025-01-01 - $&apos;]' type='table'>
+          <columns gridOrigin='A1:U291:no:A1:U291:0' header='yes' outcome='2'>
+            <column datatype='string' name='Sales Order' ordinal='0' />
+            <column datatype='string' name='Purchase Order' ordinal='1' />
+            <column datatype='date' name='Order Date' ordinal='2' />
+            <column datatype='string' name='Order Type' ordinal='3' />
+            <column datatype='integer' name='Sold-To' ordinal='4' />
+            <column datatype='string' name='Sold-To Name' ordinal='5' />
+            <column datatype='integer' name='Ship-To' ordinal='6' />
+            <column datatype='string' name='Ship-To Name' ordinal='7' />
+            <column datatype='string' name='Ship-To City' ordinal='8' />
+            <column datatype='string' name='Ship-To Address' ordinal='9' />
+            <column datatype='string' name='Ship-To Country' ordinal='10' />
+            <column datatype='string' name='Item Number' ordinal='11' />
+            <column datatype='string' name='Item Description' ordinal='12' />
+            <column datatype='integer' name='Qty Ordered' ordinal='13' />
+            <column datatype='integer' name='Qty Shipped' ordinal='14' />
+            <column datatype='date' name='Ship Date' ordinal='15' />
+            <column datatype='string' name='Shipper Number' ordinal='16' />
+            <column datatype='string' name='Carrier' ordinal='17' />
+            <column datatype='integer' name='Tracking Number' ordinal='18' />
+            <column datatype='integer' name='Extended Price' ordinal='19' />
+            <column datatype='string' name='Currency' ordinal='20' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Orders_2024-01-01_2025-01-01 - ]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:U291:no:A1:U291:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sales Order</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Sales Order]</local-name>
+            <parent-name>[Orders_2024-01-01_2025-01-01 - ]</parent-name>
+            <remote-alias>Sales Order</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Orders!2024-01-01!2025-01-01 - _8F4907F68C4843609EF2CE7A5F7CEEBD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Purchase Order</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Purchase Order]</local-name>
+            <parent-name>[Orders_2024-01-01_2025-01-01 - ]</parent-name>
+            <remote-alias>Purchase Order</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Orders!2024-01-01!2025-01-01 - _8F4907F68C4843609EF2CE7A5F7CEEBD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Order Date]</local-name>
+            <parent-name>[Orders_2024-01-01_2025-01-01 - ]</parent-name>
+            <remote-alias>Order Date</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <object-id>[Orders!2024-01-01!2025-01-01 - _8F4907F68C4843609EF2CE7A5F7CEEBD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Order Type]</local-name>
+            <parent-name>[Orders_2024-01-01_2025-01-01 - ]</parent-name>
+            <remote-alias>Order Type</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Orders!2024-01-01!2025-01-01 - _8F4907F68C4843609EF2CE7A5F7CEEBD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sold-To</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sold-To]</local-name>
+            <parent-name>[Orders_2024-01-01_2025-01-01 - ]</parent-name>
+            <remote-alias>Sold-To</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Orders!2024-01-01!2025-01-01 - _8F4907F68C4843609EF2CE7A5F7CEEBD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sold-To Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Sold-To Name]</local-name>
+            <parent-name>[Orders_2024-01-01_2025-01-01 - ]</parent-name>
+            <remote-alias>Sold-To Name</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Orders!2024-01-01!2025-01-01 - _8F4907F68C4843609EF2CE7A5F7CEEBD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ship-To</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Ship-To]</local-name>
+            <parent-name>[Orders_2024-01-01_2025-01-01 - ]</parent-name>
+            <remote-alias>Ship-To</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Orders!2024-01-01!2025-01-01 - _8F4907F68C4843609EF2CE7A5F7CEEBD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ship-To Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Ship-To Name]</local-name>
+            <parent-name>[Orders_2024-01-01_2025-01-01 - ]</parent-name>
+            <remote-alias>Ship-To Name</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Orders!2024-01-01!2025-01-01 - _8F4907F68C4843609EF2CE7A5F7CEEBD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ship-To City</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Ship-To City]</local-name>
+            <parent-name>[Orders_2024-01-01_2025-01-01 - ]</parent-name>
+            <remote-alias>Ship-To City</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Orders!2024-01-01!2025-01-01 - _8F4907F68C4843609EF2CE7A5F7CEEBD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ship-To Address</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Ship-To Address]</local-name>
+            <parent-name>[Orders_2024-01-01_2025-01-01 - ]</parent-name>
+            <remote-alias>Ship-To Address</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Orders!2024-01-01!2025-01-01 - _8F4907F68C4843609EF2CE7A5F7CEEBD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ship-To Country</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Ship-To Country]</local-name>
+            <parent-name>[Orders_2024-01-01_2025-01-01 - ]</parent-name>
+            <remote-alias>Ship-To Country</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Orders!2024-01-01!2025-01-01 - _8F4907F68C4843609EF2CE7A5F7CEEBD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Item Number</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Item Number]</local-name>
+            <parent-name>[Orders_2024-01-01_2025-01-01 - ]</parent-name>
+            <remote-alias>Item Number</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Orders!2024-01-01!2025-01-01 - _8F4907F68C4843609EF2CE7A5F7CEEBD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Item Description</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Item Description]</local-name>
+            <parent-name>[Orders_2024-01-01_2025-01-01 - ]</parent-name>
+            <remote-alias>Item Description</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Orders!2024-01-01!2025-01-01 - _8F4907F68C4843609EF2CE7A5F7CEEBD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Qty Ordered</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Qty Ordered]</local-name>
+            <parent-name>[Orders_2024-01-01_2025-01-01 - ]</parent-name>
+            <remote-alias>Qty Ordered</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Orders!2024-01-01!2025-01-01 - _8F4907F68C4843609EF2CE7A5F7CEEBD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Qty Shipped</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Qty Shipped]</local-name>
+            <parent-name>[Orders_2024-01-01_2025-01-01 - ]</parent-name>
+            <remote-alias>Qty Shipped</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Orders!2024-01-01!2025-01-01 - _8F4907F68C4843609EF2CE7A5F7CEEBD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ship Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Ship Date]</local-name>
+            <parent-name>[Orders_2024-01-01_2025-01-01 - ]</parent-name>
+            <remote-alias>Ship Date</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <object-id>[Orders!2024-01-01!2025-01-01 - _8F4907F68C4843609EF2CE7A5F7CEEBD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shipper Number</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Shipper Number]</local-name>
+            <parent-name>[Orders_2024-01-01_2025-01-01 - ]</parent-name>
+            <remote-alias>Shipper Number</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Orders!2024-01-01!2025-01-01 - _8F4907F68C4843609EF2CE7A5F7CEEBD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Carrier</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Carrier]</local-name>
+            <parent-name>[Orders_2024-01-01_2025-01-01 - ]</parent-name>
+            <remote-alias>Carrier</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Orders!2024-01-01!2025-01-01 - _8F4907F68C4843609EF2CE7A5F7CEEBD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tracking Number</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Tracking Number]</local-name>
+            <parent-name>[Orders_2024-01-01_2025-01-01 - ]</parent-name>
+            <remote-alias>Tracking Number</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Orders!2024-01-01!2025-01-01 - _8F4907F68C4843609EF2CE7A5F7CEEBD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Extended Price</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Extended Price]</local-name>
+            <parent-name>[Orders_2024-01-01_2025-01-01 - ]</parent-name>
+            <remote-alias>Extended Price</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Orders!2024-01-01!2025-01-01 - _8F4907F68C4843609EF2CE7A5F7CEEBD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Currency</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Currency]</local-name>
+            <parent-name>[Orders_2024-01-01_2025-01-01 - ]</parent-name>
+            <remote-alias>Currency</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Orders!2024-01-01!2025-01-01 - _8F4907F68C4843609EF2CE7A5F7CEEBD]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Month' datatype='string' name='[Calculation_1512928063013015553]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [Order Date] &gt;= #01-01-024# AND [Order Date] &lt;= #01-31-2024# THEN &quot;JAN&quot;&#13;&#10;ELSEIF [Order Date] &gt;= #02-01-2024# AND [Order Date] &lt;= #02-28-2024# THEN &quot;FEB&quot;&#13;&#10;ELSEIF [Order Date] &gt;= #03-01-2024# AND [Order Date] &lt;= #03-31-2024# THEN &quot;MAR&quot;&#13;&#10;ELSEIF [Order Date] &gt;= #04-01-2024# AND [Order Date] &lt;= #04-30-2024# THEN &quot;APL&quot;&#13;&#10;ELSEIF [Order Date] &gt;= #05-01-2024# AND [Order Date] &lt;= #05-31-2024# THEN &quot;MAY&quot;&#13;&#10;ELSEIF [Order Date] &gt;= #06-01-2024# AND [Order Date] &lt;= #06-30-2024# THEN &quot;JUN&quot;&#13;&#10;ELSEIF [Order Date] &gt;= #07-01-2024# AND [Order Date] &lt;= #07-31-2024# THEN &quot;JUL&quot;&#13;&#10;ELSEIF [Order Date] &gt;= #08-01-2024# AND [Order Date] &lt;= #08-31-2024# THEN &quot;AUG&quot;&#13;&#10;ELSEIF [Order Date] &gt;= #09-01-2024# AND [Order Date] &lt;= #09-30-2024# THEN &quot;SEP&quot;&#13;&#10;ELSEIF [Order Date] &gt;= #10-01-2024# AND [Order Date] &lt;= #10-31-2024# THEN &quot;OCT&quot;&#13;&#10;ELSEIF [Order Date] &gt;= #11-01-2024# AND [Order Date] &lt;= #11-30-2024# THEN &quot;NOV&quot;&#13;&#10;ELSE &quot;DEC&quot;&#13;&#10;END' />
+      </column>
+      <column datatype='string' hidden='true' name='[Carrier]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[Currency]' role='dimension' type='nominal' />
+      <column datatype='integer' hidden='true' name='[Extended Price]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Item Description]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[Item Number]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[Order Type]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[Purchase Order]' role='dimension' type='nominal' />
+      <column datatype='integer' hidden='true' name='[Qty Shipped]' role='measure' type='quantitative' />
+      <column datatype='string' hidden='true' name='[Sales Order]' role='dimension' type='nominal' />
+      <column datatype='date' hidden='true' name='[Ship Date]' role='dimension' type='ordinal' />
+      <column datatype='string' hidden='true' name='[Ship-To Address]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[Ship-To City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column datatype='string' hidden='true' name='[Ship-To Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='string' hidden='true' name='[Ship-To Name]' role='dimension' type='nominal' />
+      <column datatype='integer' hidden='true' name='[Ship-To]' role='measure' type='quantitative' />
+      <column datatype='string' hidden='true' name='[Shipper Number]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[Sold-To Name]' role='dimension' type='nominal' />
+      <column datatype='integer' hidden='true' name='[Sold-To]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[Tracking Number]' role='dimension' type='ordinal' />
+      <column caption='Orders_2024-01-01_2025-01-01 - ' datatype='table' name='[__tableau_internal_object_id__].[Orders!2024-01-01!2025-01-01 - _8F4907F68C4843609EF2CE7A5F7CEEBD]' role='measure' type='quantitative' />
+      <column-instance column='[Item Description]' derivation='None' name='[none:Item Description:nk]' pivot='key' type='nominal' />
+      <drill-paths>
+        <drill-path name='Ship-To Country, Ship-To City' />
+      </drill-paths>
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/alayp/AppData/Local/Temp/TableauTemp/#TableauTemp_0gkff9b0rbs7uw1d0c4vl0cnnovu.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='04/03/2025 09:39:28 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Order Date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Order Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Order Date</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Orders_2024-01-01_2025-01-01 - </family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>21</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Orders!2024-01-01!2025-01-01 - _8F4907F68C4843609EF2CE7A5F7CEEBD]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Item Description</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Item Description]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Item Description</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Orders_2024-01-01_2025-01-01 - </family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Orders!2024-01-01!2025-01-01 - _8F4907F68C4843609EF2CE7A5F7CEEBD]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Qty Ordered</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Qty Ordered]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Qty Ordered</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Orders_2024-01-01_2025-01-01 - </family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Orders!2024-01-01!2025-01-01 - _8F4907F68C4843609EF2CE7A5F7CEEBD]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' rowDisplayCount='300' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Item Description:nk]' type='palette'>
+            <map to='#4878a6'>
+              <bucket>&quot;Print Imaging Plate (PIP) HP - Ser.3 sheet-fed&quot;</bucket>
+            </map>
+            <map to='#49525e'>
+              <bucket>&quot;Black Ink HP - Ser.3&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;HP INDIGO CR 1 UNIT FOR 6000 &amp; 7000 SERIES&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Binary Ink Developer BASE (for S3)&quot;</bucket>
+            </map>
+            <map to='#75bc69'>
+              <bucket>&quot;HP RECYCLE AGENT 4.5 (4X 0.78KG) SER.III&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;FILTER 3 MICRON FOR OFIR&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Binary Ink Developer ROLLER (for S3)&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;HP IMAGING OIL FILTER 2 MIC (THAI)&quot;</bucket>
+            </map>
+            <map to='#b9ddf1'>
+              <bucket>&quot;Cyan Ink HP - Ser.3&quot;</bucket>
+            </map>
+            <map to='#ca223c'>
+              <bucket>&quot;Magenta Ink HP - Ser.3&quot;</bucket>
+            </map>
+            <map to='#cdcc5d'>
+              <bucket>&quot;YELLOW INK HP - SER.3&quot;</bucket>
+            </map>
+            <map to='#d5a4c4'>
+              <bucket>&quot;HP IMPRESSION PAPER&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;HP SILICA GEL FILTER 12\&quot;&quot;</bucket>
+            </map>
+            <map to='#ed665d'>
+              <bucket>&quot;IMAGING AGENT HP - WS6X00,(W)7XX0,8000&quot;</bucket>
+            </map>
+            <map to='#f49234'>
+              <bucket>&quot;Blanket HP -  Ser.3 sheet-fed&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;WIPER CLEANING STAT.  S3 - 10 UNITS&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;HP SPONGE ROLLER FOR 7X0 0 PRESSES&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Orders_2024-01-01_2025-01-01 - ' id='Orders!2024-01-01!2025-01-01 - _8F4907F68C4843609EF2CE7A5F7CEEBD'>
+            <properties context=''>
+              <relation connection='excel-direct.12xtxyy0sicoi318tsuqy1v4xbex' name='Orders_2024-01-01_2025-01-01 - ' table='[&apos;Orders_2024-01-01_2025-01-01 - $&apos;]' type='table'>
+                <columns gridOrigin='A1:U291:no:A1:U291:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Sales Order' ordinal='0' />
+                  <column datatype='string' name='Purchase Order' ordinal='1' />
+                  <column datatype='date' name='Order Date' ordinal='2' />
+                  <column datatype='string' name='Order Type' ordinal='3' />
+                  <column datatype='integer' name='Sold-To' ordinal='4' />
+                  <column datatype='string' name='Sold-To Name' ordinal='5' />
+                  <column datatype='integer' name='Ship-To' ordinal='6' />
+                  <column datatype='string' name='Ship-To Name' ordinal='7' />
+                  <column datatype='string' name='Ship-To City' ordinal='8' />
+                  <column datatype='string' name='Ship-To Address' ordinal='9' />
+                  <column datatype='string' name='Ship-To Country' ordinal='10' />
+                  <column datatype='string' name='Item Number' ordinal='11' />
+                  <column datatype='string' name='Item Description' ordinal='12' />
+                  <column datatype='integer' name='Qty Ordered' ordinal='13' />
+                  <column datatype='integer' name='Qty Shipped' ordinal='14' />
+                  <column datatype='date' name='Ship Date' ordinal='15' />
+                  <column datatype='string' name='Shipper Number' ordinal='16' />
+                  <column datatype='string' name='Carrier' ordinal='17' />
+                  <column datatype='integer' name='Tracking Number' ordinal='18' />
+                  <column datatype='integer' name='Extended Price' ordinal='19' />
+                  <column datatype='string' name='Currency' ordinal='20' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Highlight 1 (generated)' name='[Action1_4B6E7EEC632646B382089C999650D95C]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='Sheet 1' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Item Description' />
+        <param name='target' value='Sheet 1' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Orders_2024-01-01_2025-01-01 -  (Orders_2024-01-01_2025-01-01 - Orders_2024-01-01_2025-01-01)' name='federated.1fkqh8t0m16de215wo4i40dkp34a' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1fkqh8t0m16de215wo4i40dkp34a'>
+            <column caption='Month' datatype='string' name='[Calculation_1512928063013015553]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Order Date] &gt;= #01-01-024# AND [Order Date] &lt;= #01-31-2024# THEN &quot;JAN&quot;&#13;&#10;ELSEIF [Order Date] &gt;= #02-01-2024# AND [Order Date] &lt;= #02-28-2024# THEN &quot;FEB&quot;&#13;&#10;ELSEIF [Order Date] &gt;= #03-01-2024# AND [Order Date] &lt;= #03-31-2024# THEN &quot;MAR&quot;&#13;&#10;ELSEIF [Order Date] &gt;= #04-01-2024# AND [Order Date] &lt;= #04-30-2024# THEN &quot;APL&quot;&#13;&#10;ELSEIF [Order Date] &gt;= #05-01-2024# AND [Order Date] &lt;= #05-31-2024# THEN &quot;MAY&quot;&#13;&#10;ELSEIF [Order Date] &gt;= #06-01-2024# AND [Order Date] &lt;= #06-30-2024# THEN &quot;JUN&quot;&#13;&#10;ELSEIF [Order Date] &gt;= #07-01-2024# AND [Order Date] &lt;= #07-31-2024# THEN &quot;JUL&quot;&#13;&#10;ELSEIF [Order Date] &gt;= #08-01-2024# AND [Order Date] &lt;= #08-31-2024# THEN &quot;AUG&quot;&#13;&#10;ELSEIF [Order Date] &gt;= #09-01-2024# AND [Order Date] &lt;= #09-30-2024# THEN &quot;SEP&quot;&#13;&#10;ELSEIF [Order Date] &gt;= #10-01-2024# AND [Order Date] &lt;= #10-31-2024# THEN &quot;OCT&quot;&#13;&#10;ELSEIF [Order Date] &gt;= #11-01-2024# AND [Order Date] &lt;= #11-30-2024# THEN &quot;NOV&quot;&#13;&#10;ELSE &quot;DEC&quot;&#13;&#10;END' />
+            </column>
+            <column datatype='string' name='[Item Description]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Order Date]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Qty Ordered]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1512928063013015553]' derivation='None' name='[none:Calculation_1512928063013015553:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Item Description]' derivation='None' name='[none:Item Description:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Qty Ordered]' derivation='Sum' name='[sum:Qty Ordered:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.1fkqh8t0m16de215wo4i40dkp34a].[none:Calculation_1512928063013015553:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;JAN&quot;</bucket>
+              <bucket>&quot;FEB&quot;</bucket>
+              <bucket>&quot;MAR&quot;</bucket>
+              <bucket>&quot;APL&quot;</bucket>
+              <bucket>&quot;MAY&quot;</bucket>
+              <bucket>&quot;JUN&quot;</bucket>
+              <bucket>&quot;JUL&quot;</bucket>
+              <bucket>&quot;AUG&quot;</bucket>
+              <bucket>&quot;SEP&quot;</bucket>
+              <bucket>&quot;NOV&quot;</bucket>
+              <bucket>&quot;DEC&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.1fkqh8t0m16de215wo4i40dkp34a].[none:Item Description:nk]'>
+            <groupfilter function='member' level='[none:Item Description:nk]' member='&quot;WIPER CLEANING STAT.  S3 - 10 UNITS&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <natural-sort column='[federated.1fkqh8t0m16de215wo4i40dkp34a].[none:Item Description:nk]' direction='ASC' />
+          <slices>
+            <column>[federated.1fkqh8t0m16de215wo4i40dkp34a].[none:Item Description:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.1fkqh8t0m16de215wo4i40dkp34a].[none:Item Description:nk]' value='true' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.1fkqh8t0m16de215wo4i40dkp34a].[sum:Qty Ordered:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <encodings>
+              <color column='[federated.1fkqh8t0m16de215wo4i40dkp34a].[none:Item Description:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.60000002384185791' />
+                <format attr='mark-transparency' value='255' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1fkqh8t0m16de215wo4i40dkp34a].[sum:Qty Ordered:qk]</rows>
+        <cols>[federated.1fkqh8t0m16de215wo4i40dkp34a].[none:Calculation_1512928063013015553:nk]</cols>
+      </table>
+      <simple-id uuid='{F7B6070E-220F-4CDB-9733-258FFF6FF0B5}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1fkqh8t0m16de215wo4i40dkp34a].[none:Item Description:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.1fkqh8t0m16de215wo4i40dkp34a].[none:Item Description:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight field='[federated.1fkqh8t0m16de215wo4i40dkp34a].[none:Item Description:nk]'>
+          <bucket-selection />
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{AA39880C-0CF5-4533-9F6B-277410A04AF5}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
