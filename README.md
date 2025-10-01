@@ -1,6 +1,7 @@
 # Analyzing-Stock-for-ASU-Print-and-Imaging-Lab
 
-HP Indigo 7900 Supply Usage Analysis
+# HP Indigo 7900 Supply Usage Analysis
+
 📌 Project Overview
 
 This project demonstrates how I combined data cleaning with Python and visualization with Tableau to analyze monthly supply usage for the HP Indigo 7900 press.
